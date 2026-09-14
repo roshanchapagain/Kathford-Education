@@ -1,0 +1,1 @@
+export default function PageHero({title,subtitle,image}:{title:string;subtitle:string;image:string}){ return <section className="page-hero" style={{backgroundImage:`linear-gradient(90deg,rgba(8,20,42,.88),rgba(8,20,42,.35)),url(${image})`}}><div className="page-hero-inner"><h1>{title}</h1><p>{subtitle}</p></div></section> }
